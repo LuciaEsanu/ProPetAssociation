@@ -1,135 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asociatia Pro Pet</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
-    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-
-    <nav>
-        <ul>
-            <img src="logo.svg" alt="Your Logo" class="logo">
-            <li><a href="https://prodogromania.de/">ProDog Romania e.V.</a>
-            <li><a href="#">Adoptă</a></li>
-            <li><a href="#">Donează</a></li>
-            <li><a href="#">Despre noi</a></li>
-
-        </ul>
-    </nav>
+    <link rel="stylesheet" href="./styles.css"> <!-- Link to your CSS file -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-    <header class="hero-image">
-
-        <div class="hero-image">
-            <div class="hero-text">
-                <style>
-                    margin-left: 20px;
-                </style>
-
-                <h1>Asociația Pro Pet</h1>
-                <h2>oferă adăpost
-                    și îngrijire animalelor abandonate.</h2>
-                <button>Donează</button>
-            </div>
-        </div>
-    </header>
-    <section>
-        <div class="hero3-image">
-            <div class="hero3-text">
-                <img src="telefon.svg" alt="Icon 1">
-                <p>+ 40 764 188 188
-                    propetasociation@gmail.com</p>
-                <img src="ceas.svg" alt="Icon 1">
-                <p>L-V: 08:30 - 17:00
-                    S-D: 08:30 - 14:00</p>
-                <img src="locatie.svg" Icon 1">
-                <p>Mehadia 327270
-                    Caraș-Severin</p>
-            </div>
-
-    </section>
-    <div class="hero2-image">
-        <div class="hero2-text">
-            <h4>Adoptă </h4>
-            <h5> În fiecare zi de la 12:00 - 14:00 te așteptăm in locația noastră pentru a adopta
-                un câine sau o pisică din adăpost și ai oferi o șansă la o viață mai bună.</h5>
-            <h4>Donează</h4>
-            <h5>Orice sumă, oricât de mică înseamnă foarte mult pentru noi. Ajută-ne să continuăm să oferim adăpost
-                și îngrijire câinilor fără stăpân.</h5>
-            <h5>Donatiile se pot face prin:</h5>
-            <div class="container2">
-                <div class="column2">Revolut la numarul: +40 764 188 188</div>
-                <div class="column2">Paypal: propetasociation@gmail.com</div>
-            </div>
-
-
-        </div>
-    </div>
-
-    <section>
-        <h2>Despre noi</h2>
+    <nav>
         <div class="container">
-            <div class="row">
-                <div class="column">
-                    <p>Asociația Pro Pet, înființată în 2012, a început în anul următor construcția
-                        adăpostului
-                        din Mehadia, Caraș-Severin, în colaborare cu ProDog Romania e.V. din Germania, Duisburg. Acest
-                        parteneriat a avut drept scop oferirea unui adăpost sigur și îngrijire pentru animalele fără
-                        stăpân
-                        din
-                        zonă. Prin eforturile comune și implicarea voluntarilor, am reușit să realizăm acest proiect și
-                        să
-                        oferim un spațiu adecvat pentru animalele care au nevoie de protecție și îngrijire.
-                        Scopul principal al Asociației Pro Pet este să vină în ajutorul animalelor fără stăpân, în
-                        special
-                        câinilor și pisicilor din zona orașului Băile Herculane și
-                        satele învecinate.
-                        Pentru aceasta, am inițiat construirea unui padoc, care poate găzdui până la 1000 de câini și
-                        100 de
-                        pisici, oferindu-le un adăpost sigur și condiții de trai decente.</p>
-                </div>
-                <div class="image-column">
-                    <img src="img1.png" alt="/Users/lucia/Desktop/site misu/img1.png">
-                </div>
+            <img src="logo.svg" alt="Dog logo" class="logo">
+            <div class="space-5"></div>
+            <ul>
+                <li><a href="#section0">Adoptă</a></li>
+                <li><a href="#section1">Donează</a></li>
+                <li><a href="#section2">Despre noi</a></li>
+                <li id="prodog"><a href="https://prodogromania.de/">ProDog Romania e.V.</a>
+            </ul>
+        </div>
+    </nav>
+    <pre class="small"></pre>
+    <section id="section0">
+        <div class="container">
+            <div class="title">
+                <div class="space-5"></div>
+                <h1>Asociația <br>Pro Pet</h1>
+                <h2>oferă adăpost <br>și îngrijire animalelor <br>abandonate.</h2>
+                <form action="https://www.paypal.com/donate" method="post" target="_top">
+                    <input type="hidden" name="business" value="propetasociation@gmail.com">
+                    <input type="hidden" name="no_recurring" value="0">
+                    <input type="hidden" name="currency_code" value="RON"><button>Donează</button>
+                </form>
+                <div class="space-2"></div>
             </div>
-            <div class="row">
-                <div class="image-column2">
-                    <img src="img2.png" alt="/Users/lucia/Desktop/site misu/img2.png">
+            <div class="title-footer">
+                <div class="element">
+                    <img src="telefon.svg" alt="Telephone">
+                    <div class="space"></div>
+                    <div class="info-row">
+                        <a href="tel:+40764188188">+ 40 764 188 188</a>
+                        <a href="mailto:propetasociation@gmail.com">propetasociation@gmail.com</a>
+                    </div>
                 </div>
-                <div class="column">
-                    <p>În cadrul acestui padoc funcționează și un cabinet veterinar autorizat,
-                        asigurând
-                        îngrijirea medicală necesară pentru animalele aflate în grija noastră.
-                        Totodată, am obținut autorizații pentru transportul animalelor vii de la ANSVSA, asigurând
-                        astfel că
-                        animalele sunt transportate în condiții sigure și conforme cu regulamentele în vigoare.
-                        De asemenea, organizăm lunar campanii de sterilizare, contribuind la controlul populației de
-                        animale
-                        fără stăpân și la reducerea suferinței acestora. Până în prezent, am reușit să sterilizăm și să
-                        sterilizăm peste 15.000 de câini și pisici, oferindu-le astfel șansa unei vieți sănătoase și
-                        fericite.</p>
+                <div class="element">
+                    <img src="ceas.svg" alt="Clock">
+                    <div class="space"></div>
+                    <div>
+                        <p>L-V: 08:30 - 17:00</p>
+                        <p>S-D: 08:30 - 14:00</p>
+                    </div>
                 </div>
+                <a href="https://maps.app.goo.gl/6YtBrnG8Cd7UTqbF9" class="element">
+                    <img src="locatie.svg" alt="Map point">
+                    <div class="space"></div>
+                    <div>
+                        <p>Mehadia 327270</p>
+                        <p>Caraș-Severin</p>
+                    </div>
+                </a>
             </div>
-
-
-
-
-
-
-
-
-
-
     </section>
-    <div><img src="/Users/lucia/Desktop/site misu/Group 19(1).png" alt="Description of your image"></div>
+    <section id="section1">
+        <div class="container" id="info">
+            <div class="info">
+                <h4>Adoptă </h4>
+                <h5> În fiecare zi de la 12:00 - 14:00 te așteptăm in locația noastră pentru a adopta<br>un câine sau o
+                    pisică din adăpost și ai oferi o șansă la o viață mai bună.</h5>
+            </div>
+            <hr>
+            <div class="info">
+                <h4>Donează</h4>
+                <h5>Orice sumă, oricât de mică înseamnă foarte mult pentru noi.<br>Ajută-ne să continuăm să oferim
+                    adăpost și îngrijire câinilor fără stăpân.</h5>
+            </div>
+            <div class="info">
+                <h5>Donatiile se pot face prin:</h5>
+                <div class="inline-container">
+                    <a href="revolut.me/@lascargf0t">Revolut la numarul:<br class="mobile">+40 764 188 188</a>
+                    <div class="space vertical-space"></div>
+                    <a>Paypal:<br class="mobile">propetasociation@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section2">
+        <div class="container" id="about">
+            <h2>Despre noi</h2>
+            <div class="row">
+                <p id="first-element">Asociația Pro Pet, înființată în 2012, a început în anul următor construcția
+                    adăpostului
+                    din Mehadia, Caraș-Severin, în colaborare cu ProDog Romania e.V. din Germania, Duisburg. Acest
+                    parteneriat a avut drept scop oferirea unui adăpost sigur și îngrijire pentru animalele fără stăpân
+                    din
+                    zonă. Prin eforturile comune și implicarea voluntarilor, am reușit să realizăm acest proiect și să
+                    oferim un spațiu adecvat pentru animalele care au nevoie de protecție și îngrijire.
+                    Scopul principal al Asociației Pro Pet este să vină în ajutorul animalelor fără stăpân, în special
+                    câinilor și pisicilor din zona orașului Băile Herculane și satele învecinate.
+                    Pentru aceasta, am inițiat construirea unui <span>padoc</span>, care poate găzdui până la 1000 de
+                    câini și 100 de
+                    pisici, oferindu-le un adăpost sigur și condiții de trai decente.</p>
+                <img src="./img1.png" alt="Padoc">
+            </div>
+            <div class="row">
+                <img src="img2.png" id="first-element" class="side-image" alt="Vet">
+                <p>În cadrul acestui padoc funcționează și un <span>cabinet veterinar autorizat</span>, asigurând
+                    îngrijirea medicală necesară pentru animalele aflate în grija noastră.
+                    Totodată, am obținut autorizații pentru <span>transportul animalelor vii</span> de la ANSVSA,
+                    asigurând
+                    astfel că
+                    animalele sunt transportate în condiții sigure și conforme cu regulamentele în vigoare.
+                    De asemenea, organizăm lunar <span>campanii de sterilizare</span>, contribuind la controlul
+                    populației de
+                    animale
+                    fără stăpân și la reducerea suferinței acestora. Până în prezent, am reușit să sterilizăm și să
+                    sterilizăm <span>peste 15.000</span> de câini și pisici, oferindu-le astfel șansa unei vieți
+                    sănătoase și
+                    fericite.</p>
+            </div>
+            <div class="row">
+                <img src="collage.png" class="collage" alt="Collage">
+            </div>
+    </section>
     <footer>
-        <img src="logo.svg" alt="Your Logo" class="logo">
+        <!-- Schimba logo -->
+        <img src="association.svg" alt="Logo">
     </footer>
 </body>
 
